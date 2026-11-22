@@ -1,0 +1,7 @@
+inventario,area,n,deslizamiento,flujo,caida,sin_tipo,reptacion,otro
+propio,AI_10km,10265,9491,767,7,0.0,0.0,0.0
+propio,AI_geologia,9883,9128,749,6,0.0,0.0,0.0
+nacional,AI_10km,14478,8859,1622,522,3325.0,137.0,13.0
+nacional,AI_geologia,1573,926,159,76,398.0,13.0,1.0
+combinado,AI_10km,24287,18222,2365,520,3033.0,134.0,13.0
+combinado,AI_geologia,11025,9935,888,73,118.0,10.0,1.0

@@ -1,0 +1,46 @@
+﻿capa,codigo,nombre
+03_variables/litogrupo.tif,1,"Depósitos aluviales, lacustres y antrópicos"
+03_variables/litogrupo.tif,2,"Depósitos de vertiente, abanicos, torrenciales y glaciares"
+03_variables/litogrupo.tif,3,Depósitos volcanoclásticos no consolidados
+03_variables/litogrupo.tif,4,"Sedimentarias finas (lodolita, arcillolita, lutita)"
+03_variables/litogrupo.tif,5,Sedimentarias arenosas y conglomeráticas
+03_variables/litogrupo.tif,6,Sedimentarias carbonatadas y silíceas
+03_variables/litogrupo.tif,7,Volcánicas y volcanoclásticas consolidadas
+03_variables/litogrupo.tif,8,Plutónicas félsicas a intermedias
+03_variables/litogrupo.tif,9,Máficas y ultramáficas
+03_variables/litogrupo.tif,10,Metamórficas de bajo grado
+03_variables/litogrupo.tif,11,Metamórficas de alto grado
+03_variables/litogrupo.tif,12,"Cuerpos de agua (embalse, laguna)"
+03_variables/cob_esri2025.tif,1,Agua
+03_variables/cob_esri2025.tif,2,Bosque (árboles)
+03_variables/cob_esri2025.tif,4,Vegetación inundada
+03_variables/cob_esri2025.tif,5,Cultivos
+03_variables/cob_esri2025.tif,7,Área construida
+03_variables/cob_esri2025.tif,8,Suelo desnudo
+03_variables/cob_esri2025.tif,9,Nieve y hielo
+03_variables/cob_esri2025.tif,10,Nubes
+03_variables/cob_esri2025.tif,11,Pastos y arbustos
+03_variables/suelos_clases.tif,1,I-III pocas limitaciones
+03_variables/suelos_clases.tif,2,IV limitaciones moderadas
+03_variables/suelos_clases.tif,3,V-VI limitaciones fuertes
+03_variables/suelos_clases.tif,4,VII limitaciones muy fuertes
+03_variables/suelos_clases.tif,5,VIII protección
+03_variables/suelos_clases.tif,6,"Agua, urbano, otros o sin dato"
+05_zonificacion/corredor/P4_pisos_humedad (shp y tif),1,"Cálido seco (< 1 000 m, < 1 800 mm)"
+05_zonificacion/corredor/P4_pisos_humedad (shp y tif),2,"Cálido húmedo (< 1 000 m, ≥ 1 800 mm)"
+05_zonificacion/corredor/P4_pisos_humedad (shp y tif),3,"Templado seco (1 000-2 000 m, < 2 000 mm)"
+05_zonificacion/corredor/P4_pisos_humedad (shp y tif),4,"Templado húmedo (1 000-2 000 m, ≥ 2 000 mm)"
+05_zonificacion/corredor/P4_pisos_humedad (shp y tif),5,Frío y páramo (≥ 2 000 m)
+06_modelo_regional/.../mapas/LightGBM_clase5 (general) y LightGBM_clase5_zona (por zona),1,Muy baja (50 % del área con menor valor)
+06_modelo_regional/.../mapas/LightGBM_clase5 (general) y LightGBM_clase5_zona (por zona),2,Baja (siguiente 20 %)
+06_modelo_regional/.../mapas/LightGBM_clase5 (general) y LightGBM_clase5_zona (por zona),3,Media (siguiente 15 %)
+06_modelo_regional/.../mapas/LightGBM_clase5 (general) y LightGBM_clase5_zona (por zona),4,Alta (siguiente 10 %)
+06_modelo_regional/.../mapas/LightGBM_clase5 (general) y LightGBM_clase5_zona (por zona),5,Muy alta (5 % del área con mayor valor)
+06_modelo_regional/.../mapas/heuristico_clase5 (general y por zona),1,Muy baja (50 % del área con menor valor)
+06_modelo_regional/.../mapas/heuristico_clase5 (general y por zona),2,Baja (siguiente 20 %)
+06_modelo_regional/.../mapas/heuristico_clase5 (general y por zona),3,Media (siguiente 15 %)
+06_modelo_regional/.../mapas/heuristico_clase5 (general y por zona),4,Alta (siguiente 10 %)
+06_modelo_regional/.../mapas/heuristico_clase5 (general y por zona),5,Muy alta (5 % del área con mayor valor)
+06_modelo_regional/01_LightGBM/general/mapas/LightGBM_clase3.tif,1,Baja (70 % del área con menor valor)
+06_modelo_regional/01_LightGBM/general/mapas/LightGBM_clase3.tif,2,Media (siguiente 15 %)
+06_modelo_regional/01_LightGBM/general/mapas/LightGBM_clase3.tif,3,Alta (15 % del área con mayor valor)

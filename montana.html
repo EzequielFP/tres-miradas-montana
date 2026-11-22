@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="es" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b0f">
+  <meta name="description" content="Ver venir la montaña: un modelo propio de machine learning que aprendió de 24.287 movimientos en masa dónde es más propenso a moverse el terreno alrededor de la red de transmisión, en una maqueta 3D con sus ocho variables.">
+  <title>01 · Ver venir la montaña · Tres miradas sobre la montaña</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/vendor/fonts/ArchivoBlack-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="assets/css/g2.css">
+  <script>try{var c=JSON.parse(sessionStorage.getItem("g2-obturador")||"null");if(c&&!matchMedia("(prefers-reduced-motion: reduce)").matches){document.documentElement.classList.add("is-arriving");document.documentElement.style.setProperty("--arrive",c.color)}}catch(e){}</script>
+  <script type="module" src="assets/js/app.js"></script>
+</head>
+<body class="tema-montana" data-readout="01 · Tecnología · Línea 3">
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="logo" href="./" aria-label="Tres miradas sobre la montaña, portada"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="15" fill="none" stroke="#fff4e0" stroke-opacity=".35"/><path d="M3 23l8-10 5 6 4-5 9 9" fill="none" stroke="#fff4e0" stroke-width="2" stroke-linejoin="round"/><path d="M11 13l2.6 3.2M20 14l2.4 3" stroke="#f2a33a" stroke-width="2" stroke-linecap="round"/><circle cx="16" cy="8" r="2.6" fill="#e5533d"/></svg><span>Tres miradas<small>De Watts a Wow · G2</small></span></a>
+      <nav class="topnav" id="menu" aria-label="Capítulos"><a href="montana.html" aria-current="page"><span>01</span>Ver venir la montaña</a><a href="pisos.html"><span>02</span>Cinco montañas</a><a href="ojos.html"><span>03</span>Ojos en la ladera</a><a href="datos.html"><span>↓</span>Datos</a></nav>
+      <div class="geo-readout" data-geo-readout aria-hidden="true"></div>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">Menú</button>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="ch-hero" aria-labelledby="titulo">
+      <div class="ch-hero-stick">
+        <span class="letterbox top" aria-hidden="true"></span><span class="letterbox bottom" aria-hidden="true"></span>
+        <div class="ch-hero-copy">
+          <p class="kicker"><b>01 · Tecnología</b> Línea 3 · Tecnologías de la transición</p>
+          <h1 id="titulo"><span class="row">Ver venir</span><span class="row">la <em style="font-style:normal;color:var(--accent)">montaña</em></span></h1>
+          <p class="lede">En julio de 2021 un deslizamiento en Norte de Santander derribó una torre de alta tensión y dejó a Arauca más de diez días con la luz racionada. ¿Se puede ver venir la montaña?</p>
+          <div class="ch-meta"><span><b>Dónde</b> · un mapa que aprendió</span><span><b>Cuándo</b> · el agua de semanas</span><span><b>Quién llega</b> · el equipo antes que la montaña</span></div>
+        </div>
+        <div class="film">
+          <img src="assets/media/cine/red.webp" alt="">
+          <video muted playsinline preload="none" data-src="assets/media/cine/red.mp4" aria-hidden="true"></video>
+          <div class="film-hud" aria-hidden="true"><div><span class="rec">Toma 3D · datos reales</span><span data-timecode>00:00:00</span></div><div class="film-bar"><i></i></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tight" aria-labelledby="arauca-titulo">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker"><b>4 de julio de 2021</b> Los Palos, Norte de Santander</p>
+          <h2 class="display small" id="arauca-titulo" data-split>Diez días con la luz racionada.</h2>
+          <p>Llovió durante semanas, la ladera cedió y con ella una torre de la línea que lleva la energía a Arauca, un camino sin ruta alterna.</p>
+        </div>
+        <div class="stats">
+          <div class="stat"><strong class="num">+<span data-count="10">10</span><small> días</small></strong><p>con el servicio racionado en Arauca.</p></div>
+          <div class="stat"><strong class="num" data-count="92400">92.400</strong><p>usuarios afectados.</p></div>
+          <div class="stat"><strong class="num">$<span data-count="5577">5.577</span><small> M</small></strong><p>más de 5.577 millones de pesos en pérdidas.</p></div>
+          <div class="stat"><strong class="num" data-count="6466" data-suffix="<small> MWh</small>">6.466</strong><p>de demanda no atendida, la mayor de la red de transmisión ese año.</p><span class="fine">Superservicios, 2022</span></div>
+        </div>
+        <p class="fine" style="margin-top:14px">Fuentes: La República (16-jul-2021), Radio Nacional (6-jul-2021) y Superservicios, Diagnóstico de la actividad de transmisión 2021 (oct-2022), tabla 9.</p>
+      </div>
+    </section>
+
+    <section class="section tight" aria-label="Las tres preguntas">
+      <div class="wrap stack">
+        <article class="stack-card">
+          <div><span class="tag">Dónde</span><h3>Un mapa que aprendió de la montaña.</h3><p>Un algoritmo de machine learning estudió 24.287 movimientos en masa y ocho rasgos del terreno para ordenar cada celda de 12,5 m de la menos a la más propensa a moverse.</p><p style="margin-top:14px"><a href="#donde">Ir a la maqueta 3D →</a></p></div>
+          <p class="big"><span>8</span><small> variables · 24.287 eventos</small></p>
+        </article>
+        <article class="stack-card">
+          <div><span class="tag">Cuándo</span><h3>El agua de semanas, no la lluvia del día.</h3><p>Cuatro de cada diez deslizamientos en los Andes ocurren en días con menos de 5 mm de lluvia. Lo que cuenta es el agua que se acumula en el suelo.</p><p style="margin-top:14px"><a href="#cuando">Ver la lluvia acumulada →</a></p></div>
+          <p class="big"><span>4</span><small> de cada 10</small></p>
+        </article>
+        <article class="stack-card">
+          <div><span class="tag">Quién llega</span><h3>El equipo, antes que la montaña.</h3><p>Cuando coinciden terreno propenso, agua acumulada y laderas sin vegetación, una torre sube en la lista y un equipo sabe a dónde ir primero.</p><p style="margin-top:14px"><a href="#quien">Ver cómo →</a></p></div>
+          <p class="big"><span>3.613</span><small> torres para vigilar primero</small></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section tight" id="donde" aria-labelledby="donde-titulo">
+      <div class="wrap grid-2">
+        <div class="section-head" style="margin:0">
+          <p class="kicker"><b>Dónde</b> La memoria de la tierra</p>
+          <h2 class="display small" id="donde-titulo" data-split>24.287 movimientos en masa.</h2>
+          <p>Reunimos los eventos registrados en una franja de 10 km alrededor de toda la red. Más de diez mil los fotointerpretamos nosotros sobre imágenes de satélite y ortofotos; el resto viene del inventario nacional.</p>
+        </div>
+        <div class="panel" data-reveal>
+          <div class="stackbar" role="img" aria-label="10.265 eventos del inventario propio y 14.022 del inventario nacional">
+            <div style="flex:10265;background:var(--accent)">10.265 <span>propio</span></div>
+            <div style="flex:14022;background:rgba(255,244,224,.55)">14.022 <span>nacional</span></div>
+          </div>
+          <p style="margin-top:14px">El 42 % del inventario es fotointerpretación propia. El nacional reúne el SIMMA del Servicio Geológico Colombiano, Colombia en Mapas y Geohazards UNAL. Al combinarlos se quitan los eventos repetidos a menos de 50 m.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="t3d" id="maqueta" data-maqueta aria-labelledby="t3d-title">
+      <img class="t3d-poster" src="assets/media/cine/ladera.webp" alt="" loading="lazy">
+      <div class="t3d-canvas"></div>
+      <div class="t3d-labels"></div>
+      <div class="t3d-probe" aria-hidden="true"></div>
+      <div class="t3d-ui">
+        <div class="t3d-title">
+          <p class="kicker"><b>Maqueta 3D</b> Un tramo de 15 × 15 km</p>
+          <h2 id="t3d-title">La ladera, capa por capa.</h2>
+          <p>Es el tramo del corredor con más torres en la clase más propensa. Pinta el relieve con cada variable, separa las ocho capas o pasa el cursor para leerlas todas en un punto. Arrastra para girar; Ctrl + rueda para acercarte.</p>
+          <p class="t3d-status" data-t3d-status role="status"></p>
+        </div>
+        <div class="t3d-side">
+          <div class="layer-card" data-layer-card aria-live="polite"></div>
+          <div class="layer-card"><p class="kicker"><b>Sonda</b> Bajo el cursor</p><ul class="probe-list reset-list" data-probe-list></ul></div>
+        </div>
+        <div class="t3d-tools">
+          <div class="tool-box"><span>Resultado del modelo</span><div class="chip-group" role="group" aria-label="Resultado del modelo"><button class="chip" type="button" data-capa="yeso" aria-pressed="false">Yeso</button><button class="chip" type="button" data-capa="indice" aria-pressed="true">Índice</button><button class="chip" type="button" data-capa="clase3" aria-pressed="false">Tres clases</button></div></div>
+          <div class="tool-box"><span>Las ocho variables</span><div class="chip-group" role="group" aria-label="Variable"><button class="chip" type="button" data-capa="elevacion" aria-pressed="false">Elevación</button><button class="chip" type="button" data-capa="relieve_500" aria-pressed="false">Relieve</button><button class="chip" type="button" data-capa="precipitacion" aria-pressed="false">Lluvia</button><button class="chip" type="button" data-capa="litogrupo" aria-pressed="false">Geología</button><button class="chip" type="button" data-capa="cob_esri2025" aria-pressed="false">Cobertura</button><button class="chip" type="button" data-capa="suelos_clases" aria-pressed="false">Suelos</button><button class="chip" type="button" data-capa="dist_vias" aria-pressed="false">Vías</button><button class="chip" type="button" data-capa="dist_fallas" aria-pressed="false">Fallas</button></div></div>
+          <div class="tool-box"><span>Ver</span><div class="chip-group"><button class="chip" type="button" data-t3d-toggle="capas" aria-pressed="false">Separar capas</button><button class="chip" type="button" data-t3d-toggle="eventos" aria-pressed="false"><i class="sw" style="background:#e5533d"></i>Eventos</button><button class="chip" type="button" data-t3d-toggle="lineas" aria-pressed="true">Líneas</button><button class="chip" type="button" data-t3d-toggle="curvas" aria-pressed="false">Curvas</button></div></div>
+          <div class="tool-box"><span>Exageración <b data-t3d-exag-label>×2,0</b></span><input class="range" type="range" min="1" max="4" step="0.1" value="2" data-t3d-exag aria-label="Exageración vertical"></div>
+          <div class="tool-box"><span>Cámara</span><div class="chip-group"><button class="chip" type="button" data-t3d-act="tour" aria-pressed="false">Recorrido</button><button class="chip" type="button" data-t3d-act="in" aria-label="Acercar">+</button><button class="chip" type="button" data-t3d-act="out" aria-label="Alejar">−</button><button class="chip" type="button" data-t3d-act="reset">Restablecer</button></div></div>
+          <div class="compass" aria-hidden="true"><svg viewBox="0 0 54 54"><circle cx="27" cy="27" r="20" fill="rgba(8,11,15,.6)" stroke="#fff4e0" stroke-opacity=".4" stroke-dasharray="2 3"/><path d="M27 8l5 19H22z" fill="#f2a33a"/><path d="M27 46l5-19H22z" fill="#fff4e0" opacity=".5"/><text x="27" y="6.5" text-anchor="middle" font-size="7" font-family="monospace" font-weight="700" fill="#fff4e0">N</text></svg></div>
+        </div>
+      </div>
+      <button class="btn solid t3d-hint" type="button" data-t3d-activate>Tocar para explorar en 3D</button>
+    </section>
+    <p class="wrap fine t3d-credit">Relieve ALOS PALSAR 12,5 m (exageración ajustable) · ocho variables e índice de nuestro modelo LightGBM · eventos: rojo el inventario propio, blanco el nacional · líneas de la red STN de 115, 230 y 500 kV. Se muestra sin coordenadas: la sonda da kilómetros desde la esquina noroeste.</p>
+
+    <section class="section" aria-labelledby="pistas-titulo">
+      <div class="wrap grid-2">
+        <div class="prose">
+          <p class="kicker"><b>Las pistas</b> Qué pesa más en el modelo</p>
+          <h2 class="display small" id="pistas-titulo" data-split>Ocho pistas del terreno.</h2>
+          <p class="lede">Qué tan alto y empinado es, cuánto llueve, qué roca y qué suelo hay, qué lo cubre y qué tan cerca pasa una vía o una falla geológica.</p>
+          <p>De 25 variables candidatas quedaron ocho. Con diez, el AUC subía apenas 0,0001. La pendiente, la variable obvia, quedó por fuera porque repite lo que ya dice el relieve local (VIF 54).</p>
+          <p>La barra es la mediana de la importancia por permutación entre iteraciones; la línea, el rango del 5 al 95 %. Indica cuánto se apoya el modelo en cada variable, no que la cause.</p>
+        </div>
+        <figure class="lamina" data-reveal>
+          <div style="padding:22px 20px 10px"><div class="chart" data-chart="importancia"></div></div>
+          <figcaption class="lamina-cap"><span><b>FIG. 01</b> Importancia por permutación · LightGBM</span><span>Mediana y P5–P95 · no es un IC 95 %</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="curva-titulo">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker"><b>La prueba</b> En zonas que nunca vio</p>
+          <h2 class="display small" id="curva-titulo" data-split>El 20 % que guarda el <em>68 %</em>.</h2>
+          <p>Partimos el corredor en bloques de 10 km y probamos el modelo en bloques que no usó para aprender. El 20 % del corredor que marca como más propenso concentra el 68 % de los movimientos en masa conocidos. Un mapa hecho con pesos de experto (AHP) llega al 47 %.</p>
+        </div>
+        <div class="grid-2">
+          <figure class="lamina" data-reveal>
+            <div style="padding:20px 18px 8px"><div class="chart" data-chart="curva"></div></div>
+            <figcaption class="lamina-cap"><span><b>FIG. 02</b> Curva de éxito · AUC 0,835</span><span>5 particiones · bloques de 10 km · líneas rectas entre los puntos publicados</span></figcaption>
+          </figure>
+          <figure class="lamina" data-reveal>
+            <div style="padding:20px 18px 8px"><div class="chart" data-chart="experto"></div></div>
+            <figcaption class="lamina-cap"><span><b>FIG. 03</b> La máquina contra el experto</span><span>Eventos en el 20 % más propenso, por piso</span></figcaption>
+          </figure>
+        </div>
+        <div class="callout" style="margin-top:22px"><p>La máquina gana en todos los pisos, pero en cuatro de cinco piensa casi igual que el experto. El desacuerdo grande está en el piso templado y seco, justo donde el modelo encontró que las fallas geológicas pesan. Allí es donde más rinde mandar a un geólogo.</p><p class="fine">Los pesos AHP son una propuesta inicial sin revisión experta externa.</p></div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="examen-titulo">
+      <div class="wrap grid-2 flip">
+        <figure class="lamina" data-reveal>
+          <div style="padding:20px 18px 8px"><div class="chart" data-chart="modelos"></div></div>
+          <figcaption class="lamina-cap"><span><b>FIG. 04</b> AUC en entrenamiento y en zonas nunca vistas</span><span>15 particiones · inventario combinado</span></figcaption>
+        </figure>
+        <div class="prose">
+          <p class="kicker"><b>El examen</b> Validación honesta</p>
+          <h2 class="display small" id="examen-titulo" data-split>Lo que sabe y lo que memoriza.</h2>
+          <p class="lede">Un modelo que memoriza saca muy buena nota con las preguntas que ya conoce. Por eso lo medimos en zonas que no vio.</p>
+          <ul class="probe-list reset-list" style="font-size:.82rem;gap:10px">
+            <li><span>Bosque aleatorio, el que más memoriza</span><b>0,959 → 0,835</b></li>
+            <li><span>LightGBM, el elegido</span><b>0,905 → 0,840</b></li>
+            <li><span>Bloques de 5 km → 50 km</span><b>0,849 → 0,790</b></li>
+            <li><span>Puntos corridos con error moderado</span><b>0,835 → ~0,832</b></li>
+          </ul>
+          <p>Cuanto más lejos de los datos, menos sabe. Y el mapa es estable en las clases bajas, pero no tanto en la más alta: por eso lo comunicamos con tres clases y no con cinco.</p>
+          <p class="fine">Esta figura usa la validación de 15 particiones (AUC 0,840). La curva de éxito usa la de 5 particiones (AUC 0,835). No se mezclan.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="torres-titulo">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker"><b>Las torres</b> Cruce con la red STN</p>
+          <h2 class="display small" id="torres-titulo" data-split><em>3.613</em> torres sobre terreno propenso.</h2>
+          <p>Cruzamos el mapa con las 22.263 torres de la red. Una de cada seis está en el 15 % del corredor más propenso a moverse, y una de cada siete tiene un deslizamiento registrado a menos de 500 m.</p>
+        </div>
+        <div class="grid-2">
+          <figure class="lamina" data-reveal>
+            <div style="padding:24px 20px 10px"><div class="chart" data-chart="torres"></div></div>
+            <figcaption class="lamina-cap"><span><b>FIG. 05</b> Torres por clase de propensión</span><span>Cálculo propio · sin ubicar torres</span></figcaption>
+          </figure>
+          <figure class="lamina" data-reveal>
+            <div style="padding:24px 20px 10px"><div class="chart" data-chart="distancia"></div></div>
+            <figcaption class="lamina-cap"><span><b>FIG. 06</b> Torres con un evento cerca</span><span>Mediana al evento más cercano: 2,4 km</span></figcaption>
+          </figure>
+        </div>
+        <p class="fine" style="margin-top:14px">Un punto del inventario no es la huella completa del evento. La propensión es relativa: no es la probabilidad de que una torre falle. Por ser infraestructura crítica, aquí no se publican ubicaciones ni identificadores de torres.</p>
+      </div>
+    </section>
+
+    <section class="section" id="cuando" aria-labelledby="cuando-titulo">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker"><b>Cuándo</b> La montaña tiene estaciones</p>
+          <h2 class="display small" id="cuando-titulo" data-split>El agua que se acumula.</h2>
+          <p>En enero de 2024, al final del Niño anterior, ningún píxel andino del corredor pasaba los 200 mm de lluvia en 30 días. En noviembre de ese año, el 59 % los pasaba. Se ven las dos temporadas de lluvia: abril–mayo y octubre–noviembre.</p>
+        </div>
+        <figure class="lamina" data-reveal>
+          <div style="padding:18px 20px 6px">
+            <div class="chart-tools" data-chart-for="lluvia"><div class="chip-group" role="group" aria-label="Valor de referencia"><button class="chip" type="button" data-serie="30" aria-pressed="true">Más de 200 mm en 30 días</button><button class="chip" type="button" data-serie="90" aria-pressed="false">Más de 600 mm en 90 días</button></div></div>
+            <div class="chart" id="lluvia" data-chart="lluvia" data-serie="30"></div>
+          </div>
+          <figcaption class="lamina-cap"><span><b>FIG. 07</b> % de píxeles andinos del corredor sobre el valor de referencia · cierre de cada mes</span><span>CHIRPS · 880 píxeles de ~5,5 km · ene-2024 a sep-2026</span></figcaption>
+        </figure>
+        <div class="grid-2" style="margin-top:28px">
+          <div class="callout"><p><strong>Cuatro de cada diez</strong> deslizamientos en los Andes ocurren en días con menos de 5 mm de lluvia. Lo que dispara la ladera es el agua acumulada de semanas.</p><p class="fine">Gómez, Aristizábal y García (2023), Revista de la Asociación Geológica Argentina.</p></div>
+          <div class="callout"><p>200 mm en 30 días y 600 mm en 90 días son <strong>valores de referencia</strong> para la región Andina, no umbrales oficiales ni una alerta calibrada. Cada píxel pesa igual y no es un promedio por área.</p><p class="fine">Cálculo propio sobre CHIRPS en Google Earth Engine.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="quien" aria-labelledby="quien-titulo">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker"><b>Quién llega</b> De amenazas a alertas</p>
+          <h2 class="display small" id="quien-titulo" data-split>Un equipo que llega antes.</h2>
+          <p>Ninguna de estas piezas funciona sola. Juntas ordenan la lista de dónde mirar primero.</p>
+        </div>
+        <div class="steps">
+          <article class="step" data-reveal><h3>Un mapa de dónde</h3><p>Nuestro modelo ordena cada celda de 12,5 m del corredor y marca el 15 % más propenso.</p></article>
+          <article class="step" data-reveal><h3>Una alerta de cuándo</h3><p>La lluvia acumulada de 30 y 90 días dice cuándo ese terreno está cargado de agua.</p></article>
+          <article class="step" data-reveal><h3>Ojos desde el espacio</h3><p>Sentinel-2 vuelve a mirar cada ladera cada pocos días con píxeles de 10 m. Si una ladera propensa pierde su vegetación, pierde las raíces que la sostienen.</p></article>
+        </div>
+        <blockquote class="callout" style="margin:28px 0 0"><p style="font:400 clamp(1.5rem,3vw,2.4rem)/1.15 var(--display);color:var(--paper)">La inteligencia artificial no reemplaza al ingeniero que conoce la montaña: le ayuda a escucharla a tiempo.</p></blockquote>
+      </div>
+    </section>
+
+    <section class="section" id="video" aria-labelledby="video-titulo">
+      <div class="wrap player-wrap">
+        <div class="player" data-player="1" data-poster="assets/media/cine/red.webp"></div>
+        <div class="player-side">
+          <p class="kicker"><b>El video</b> 3:00 · versión vertical</p>
+          <h2 class="display" id="video-titulo" data-split>Ver venir la montaña.</h2>
+          <p class="lede">Dónde, cuándo y quién llega, contado en tres minutos con una maqueta de datos reales.</p>
+          <p class="fine">Los clips rotulados «Recreación con IA» en el video se generaron con IA. Las tomas 3D de esta página son renders de Blender con datos reales.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tight">
+      <div class="wrap">
+        <a class="next-ch" href="pisos.html" style="--next: var(--leaf)">
+          <div><small>Capítulo 02 · Territorio</small><strong>Cinco montañas, una red</strong></div>
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap">
+      <div class="foot-grid">
+        <div><h2>Tres miradas sobre la montaña</h2><p>Grupo 2 de De Watts a Wow. Un proyecto propio sobre la susceptibilidad por movimientos en masa alrededor de la red de transmisión de Colombia.</p></div>
+        <ul><li><a href="montana.html">01 · Ver venir la montaña</a></li><li><a href="pisos.html">02 · Cinco montañas, una red</a></li><li><a href="ojos.html">03 · Ojos en la ladera</a></li><li><a href="datos.html">Datos abiertos y fuentes</a></li></ul>
+        <ul><li>Relieve: ALOS PALSAR 12,5 m</li><li>Lluvia: CHIRPS</li><li>Cobertura: Esri Land Cover 2025</li><li>Geología: SGC, Atlas Geológico</li><li>Vías y suelos: IGAC</li></ul>
+      </div>
+      <p class="fine">La susceptibilidad indica dónde el terreno es más propenso a moverse. No es una probabilidad ni un riesgo. El modelo, el inventario fotointerpretado y los cruces con las torres son un proyecto propio, no resultados de ISA.</p>
+    </div>
+  </footer>
+</body>
+</html>

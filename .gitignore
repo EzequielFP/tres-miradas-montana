@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+scripts/.vendor-entradas/
+node_modules/
+.DS_Store
+Thumbs.db

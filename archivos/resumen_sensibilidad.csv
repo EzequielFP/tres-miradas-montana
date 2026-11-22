@@ -1,0 +1,40 @@
+﻿,,,,AUC_AMBOS,AUC_AMBOS,AUC_COL,AUC_COL
+,,,,mean,std,mean,std
+tipo,valor,variables,modelo,,,,
+bloque,5000,con_UCS,LGBM,0.8491,0.0138,0.8747,0.0183
+bloque,5000,con_UCS,LR,0.7984,0.021,0.8313,0.0233
+bloque,5000,sin_UCS,LGBM,0.847,0.0124,0.8717,0.0183
+bloque,5000,sin_UCS,LR,0.7932,0.0203,0.826,0.02
+bloque,10000,con_UCS,LGBM,0.8325,0.0182,0.8654,0.021
+bloque,10000,con_UCS,LR,0.7945,0.0195,0.8298,0.0248
+bloque,10000,sin_UCS,LGBM,0.8301,0.0168,0.8621,0.0202
+bloque,10000,sin_UCS,LR,0.7888,0.02,0.8236,0.0189
+bloque,25000,con_UCS,LGBM,0.8102,0.0346,0.8433,0.0299
+bloque,25000,con_UCS,LR,0.7777,0.0285,0.8176,0.026
+bloque,25000,sin_UCS,LGBM,0.8078,0.0317,0.8378,0.0284
+bloque,25000,sin_UCS,LR,0.7733,0.0235,0.8106,0.0195
+bloque,50000,con_UCS,LGBM,0.7901,0.0447,0.8252,0.0443
+bloque,50000,con_UCS,LR,0.7642,0.0434,0.8007,0.0453
+bloque,50000,sin_UCS,LGBM,0.7797,0.0454,0.8149,0.0459
+bloque,50000,sin_UCS,LR,0.7613,0.0405,0.7958,0.0442
+hiper,"hojas=15, min=100",final,LGBM,0.8337,0.0167,0.8651,0.0184
+hiper,"hojas=15, min=300",final,LGBM,0.8324,0.0151,0.8649,0.0188
+hiper,"hojas=15, min=50",final,LGBM,0.834,0.0149,0.865,0.0184
+hiper,"hojas=31, min=100",final,LGBM,0.8364,0.0149,0.866,0.0186
+hiper,"hojas=31, min=300",final,LGBM,0.837,0.0147,0.8669,0.0177
+hiper,"hojas=31, min=50",final,LGBM,0.8346,0.0148,0.8659,0.0179
+hiper,"hojas=63, min=100",final,LGBM,0.8359,0.0163,0.8661,0.0174
+hiper,"hojas=63, min=300",final,LGBM,0.8369,0.0141,0.8664,0.0182
+hiper,"hojas=63, min=50",final,LGBM,0.8356,0.0142,0.867,0.0176
+razon,1,final,LGBM,0.8355,0.0161,0.8666,0.0175
+razon,1,final,LR,0.7958,0.0236,0.8322,0.0238
+razon,3,final,LGBM,0.8362,0.0157,0.8668,0.0172
+razon,3,final,LR,0.7973,0.0242,0.8316,0.0257
+razon,10,final,LGBM,0.8363,0.015,0.8666,0.0177
+razon,10,final,LR,0.7953,0.0249,0.8314,0.0267
+variante,base,final,LGBM,0.8357,0.0166,0.8666,0.018
+variante,base,final,LR,0.7948,0.0266,0.8317,0.0257
+variante,litologia_1M,final,LGBM,0.836,0.0158,0.8667,0.0185
+variante,litologia_1M,final,LR,0.7942,0.0211,0.8305,0.0255
+variante,sin_caidas_reptacion,final,LGBM,0.8346,0.0177,0.8696,0.0188
+variante,sin_caidas_reptacion,final,LR,0.7965,0.0261,0.8377,0.0257
