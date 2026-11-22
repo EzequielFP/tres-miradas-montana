@@ -1,5 +1,7 @@
 # Tres miradas sobre la montaña · De Watts a Wow, Grupo 2
 
+[Abre el sitio](https://ezequielfp.github.io/tres-miradas-montana/)
+
 Sitio del segundo grupo de videos. Cuenta, con un modelo propio de susceptibilidad por movimientos en masa, cómo se apoya la red de transmisión de Colombia sobre montañas que a veces se mueven. Es un proyecto independiente: el modelo, el inventario fotointerpretado y los cruces con las torres no son resultados de ISA.
 
 El diseño es distinto al del Grupo 1. Usa un «documental nocturno»: degradado oscuro, titulares Archivo Black, cifras en mono ámbar, paneles translúcidos, grano de película y un obturador que cierra y abre entre páginas.
