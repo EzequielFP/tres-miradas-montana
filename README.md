@@ -19,17 +19,17 @@ El diseño es distinto al del Grupo 1. Usa un «documental nocturno»: degradado
 
 ## Videos
 
+**Los videos no están publicados (24-nov-2026):** todavía están en edición. Los tres reproductores muestran el aviso «En edición» y el repositorio no lleva las copias de los videos.
+
 La trilogía va en este orden de publicación. Las claves son las de [metadatos/videos.json](metadatos/videos.json).
 
-| Clave | Capítulo | Duración | Copia web |
-|---|---|---|---|
-| `1` | «Ojos en la ladera» | 2:00 | `assets/video/1.mp4` |
-| `2` | «Ver venir la montaña» | 2:33 | `assets/video/2.mp4` |
-| `3` | «Cinco montañas, una red» | 2:21 | `assets/video/3.mp4` |
+| Clave | Capítulo |
+|---|---|
+| `1` | «Ojos en la ladera» |
+| `2` | «Ver venir la montaña» |
+| `3` | «Cinco montañas, una red» |
 
-Las copias web son de 720 × 1280. Los montajes completos en 1080 × 1920, con los fondos sin presentadora, los guiones, los textos de publicación y las tablas abiertas, van en la carpeta de Google Drive del Grupo 2 (`GRUPO_2/TRES_MIRADAS_MONTANA_DRIVE`).
-
-Los reproductores leen `metadatos/videos.json`. Sin `src`, cada uno muestra el aviso de video en edición. Para sustituir un montaje por una nueva versión:
+Los reproductores leen `metadatos/videos.json`. Sin `src`, cada uno muestra el aviso de video en edición. Cuando un video esté listo, se publica así (deja una copia de 720 × 1280 en `assets/video/` y escribe su `src`):
 
 ```
 python scripts/preparar_video.py <video final.mp4> 2 --titulo "Ver venir la montaña"
