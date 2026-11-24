@@ -1,5 +1,20 @@
 {
-  "1": { "src": "", "poster": "assets/media/cine/red.webp", "titulo": "Ver venir la montaña", "descripcion": "" },
-  "2": { "src": "", "poster": "assets/media/cine/piso-3.webp", "titulo": "Cinco montañas, una red", "descripcion": "" },
-  "3": { "src": "", "poster": "assets/media/cine/ladera.webp", "titulo": "Ojos en la ladera", "descripcion": "" }
+  "1": {
+    "src": "assets/video/1.mp4",
+    "poster": "assets/video/1.webp",
+    "titulo": "Ojos en la ladera",
+    "descripcion": ""
+  },
+  "2": {
+    "src": "assets/video/2.mp4",
+    "poster": "assets/video/2.webp",
+    "titulo": "Ver venir la montaña",
+    "descripcion": ""
+  },
+  "3": {
+    "src": "assets/video/3.mp4",
+    "poster": "assets/video/3.webp",
+    "titulo": "Cinco montañas, una red",
+    "descripcion": ""
+  }
 }

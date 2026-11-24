@@ -7,9 +7,9 @@ Sitio del segundo grupo de videos. Cuenta, con un modelo propio de susceptibilid
 El diseño es distinto al del Grupo 1. Usa un «documental nocturno»: degradado oscuro, titulares Archivo Black, cifras en mono ámbar, paneles translúcidos, grano de película y un obturador que cierra y abre entre páginas.
 
 - [Portada](index.html). Curvas de nivel nocturnas de un tramo real en WebGL2, eventos del inventario que laten, líneas de la red y una lente que muestra el índice del modelo. Incluye la trilogía con tomas 3D, cifras, los tres reproductores y el mapa nacional del corredor con focos de calor.
-- [01 · Ver venir la montaña](montana.html). Maqueta 3D de 15 × 15 km que se pinta con cualquiera de las diez capas. Las ocho variables se separan en láminas, y hay eventos, líneas, sonda y recorrido. También están la importancia de variables, la curva de éxito, la comparación con el experto, el examen de modelos, las torres y la lluvia acumulada.
-- [02 · Cinco montañas, una red](pisos.html). Un ascensor por los cinco pisos térmicos con su toma 3D, sus cifras y lo que más pesa en cada uno. También están la densidad de eventos, el modelo único frente a cinco locales y las cuatro líneas que cruzan todos los pisos.
-- [03 · Ojos en la ladera](ojos.html). Balanza de puntos entre los dos inventarios en la misma área y un caso Sentinel-2 antes y después con cortina, parpadeo y lupa. También están las señales de alerta, mira–avisa–cuida y los focos de calor.
+- [01 · Ojos en la ladera](ojos.html). Balanza de puntos entre los dos inventarios en la misma área y un caso Sentinel-2 antes y después con cortina, parpadeo y lupa. También están las señales de alerta, mira–avisa–cuida y los focos de calor.
+- [02 · Ver venir la montaña](montana.html). Maqueta 3D de 15 × 15 km que se pinta con cualquiera de las diez capas. Las ocho variables se separan en láminas, y hay eventos, líneas, sonda y recorrido. También están la importancia de variables, la curva de éxito, la comparación con el experto, el examen de modelos, las torres y la lluvia acumulada.
+- [03 · Cinco montañas, una red](pisos.html). Un ascensor por los cinco pisos térmicos con su toma 3D, sus cifras y lo que más pesa en cada uno. También están la densidad de eventos, el modelo único frente a cinco locales y las cuatro líneas que cruzan todos los pisos.
 - [Datos abiertos](datos.html). Descargas, método, fuentes y créditos.
 
 ## Lo que no se publica
@@ -19,10 +19,10 @@ El diseño es distinto al del Grupo 1. Usa un «documental nocturno»: degradado
 
 ## Agregar los videos
 
-Los reproductores leen [metadatos/videos.json](metadatos/videos.json) (claves `1`, `2` y `3`). Sin `src`, cada uno muestra el aviso de video en edición. Cuando estén montados con la presentadora:
+Los reproductores leen [metadatos/videos.json](metadatos/videos.json) (claves `1`, `2` y `3`). Sin `src`, cada uno muestra el aviso de video en edición. Para sustituir un montaje por una nueva versión:
 
 ```
-python scripts/preparar_video.py <video final.mp4> 1 --titulo "Ver venir la montaña"
+python scripts/preparar_video.py <video final.mp4> 2 --titulo "Ver venir la montaña"
 ```
 
 ## Regenerar los datos

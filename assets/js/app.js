@@ -34,9 +34,9 @@ function scrollToTarget(target) {
 const STORE = "g2-obturador";
 const themes = {
   "index.html": { color: "#080b0f", ink: "#f2a33a", num: "G2", label: "Tres miradas sobre la montaña" },
-  "montana.html": { color: "#080b0f", ink: "#f2a33a", num: "01", label: "Ver venir la montaña" },
-  "pisos.html": { color: "#080b0f", ink: "#8fcb6b", num: "02", label: "Cinco montañas, una red" },
-  "ojos.html": { color: "#080b0f", ink: "#8fd3e8", num: "03", label: "Ojos en la ladera" },
+  "montana.html": { color: "#080b0f", ink: "#f2a33a", num: "02", label: "Ver venir la montaña" },
+  "pisos.html": { color: "#080b0f", ink: "#8fcb6b", num: "03", label: "Cinco montañas, una red" },
+  "ojos.html": { color: "#080b0f", ink: "#8fd3e8", num: "01", label: "Ojos en la ladera" },
   "datos.html": { color: "#080b0f", ink: "#fff4e0", num: "↓", label: "Datos abiertos" },
 };
 const curtain = document.createElement("div");
