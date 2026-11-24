@@ -43,11 +43,12 @@
     <section class="section tight" id="descargas" aria-labelledby="descargas-titulo">
       <div class="wrap">
         <div class="section-head">
-          <p class="kicker"><b>Descargas</b> CSV y JSON</p>
+          <p class="kicker"><b>Descargas</b> Excel y CSV</p>
           <h2 class="display small" id="descargas-titulo" data-split>Tablas del modelo.</h2>
-          <p>Resúmenes agregados del paquete del modelo. No incluyen coordenadas ni identificadores de torres. El <a href="archivos/LEEME.md">LEEME</a> explica cada archivo y sus columnas.</p>
+          <p>Resúmenes agregados del paquete del modelo, en un libro de Excel o en CSV que se abren directamente en Excel. No incluyen coordenadas ni identificadores de torres. El <a href="archivos/LEEME.md">LEEME</a> explica cada archivo y sus columnas.</p>
         </div>
         <div class="files">
+          <a class="file" href="archivos/TABLAS_DEL_MODELO.xlsx" download><span class="ext">XLSX</span><strong>Todas las tablas</strong><span>Variables, validación, los seis modelos, el heurístico, las zonas y el inventario nacional, en un libro de Excel.</span></a>
           <a class="file" href="archivos/resumen_inventarios.csv" download><span class="ext">CSV</span><strong>Inventarios</strong><span>Eventos por inventario, área y tipo de movimiento.</span></a>
           <a class="file" href="archivos/tabla_variables.csv" download><span class="ext">CSV</span><strong>Variables candidatas</strong><span>AUC individual, valor de información, importancia y VIF de las 25 candidatas.</span></a>
           <a class="file" href="archivos/resumen_modelos.csv" download><span class="ext">CSV</span><strong>Seis modelos</strong><span>Con y sin suelos, validación de 15 particiones.</span></a>
@@ -55,11 +56,10 @@
           <a class="file" href="archivos/auc_por_zona.csv" download><span class="ext">CSV</span><strong>AUC por piso</strong><span>Modelo único frente a modelos entrenados en cada zona.</span></a>
           <a class="file" href="archivos/importancia_por_zona_P4.csv" download><span class="ext">CSV</span><strong>Importancia por piso</strong><span>Peso de cada variable en las cinco zonas térmicas y de humedad.</span></a>
           <a class="file" href="archivos/codigos_clases.csv" download><span class="ext">CSV</span><strong>Códigos de clases</strong><span>Significado de las capas categóricas y de las clases del modelo.</span></a>
-          <a class="file" href="archivos/lluvia_andina.json" download><span class="ext">JSON</span><strong>Lluvia acumulada andina</strong><span>% de píxeles sobre 200 mm/30 d y 600 mm/90 d, ene-2024 a sep-2026.</span></a>
-          <a class="file" href="assets/data/zonas.json" download><span class="ext">JSON</span><strong>Cinco pisos</strong><span>Área, densidad de eventos, torres por clase, importancia y AUC de cada piso.</span></a>
-          <a class="file" href="assets/data/curva_exito.json" download><span class="ext">JSON</span><strong>Curva de éxito</strong><span>Puntos publicados de 10, 20 y 30 % del área.</span></a>
-          <a class="file" href="assets/data/importancia_variables.json" download><span class="ext">JSON</span><strong>Importancia de variables</strong><span>Mediana y P5–P95 por permutación.</span></a>
-          <a class="file" href="assets/data/torres_por_clase.json" download><span class="ext">JSON</span><strong>Torres por clase</strong><span>Conteos agregados por clase de susceptibilidad.</span></a>
+          <a class="file" href="archivos/lluvia_andina.csv" download><span class="ext">CSV</span><strong>Lluvia acumulada andina</strong><span>% de píxeles sobre 200 mm/30 d y 600 mm/90 d, ene-2024 a sep-2026.</span></a>
+          <a class="file" href="archivos/zonas_P4.csv" download><span class="ext">CSV</span><strong>Cinco pisos</strong><span>Área, densidad de eventos, torres por clase, AUC y variable que más pesa en cada piso.</span></a>
+          <a class="file" href="archivos/importancia_variables.csv" download><span class="ext">CSV</span><strong>Importancia de variables</strong><span>Mediana y P5–P95 por permutación.</span></a>
+          <a class="file" href="archivos/torres_por_clase.csv" download><span class="ext">CSV</span><strong>Torres por clase</strong><span>Conteos agregados por clase de susceptibilidad.</span></a>
         </div>
       </div>
     </section>
