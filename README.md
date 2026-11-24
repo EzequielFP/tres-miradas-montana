@@ -17,9 +17,19 @@ El diseño es distinto al del Grupo 1. Usa un «documental nocturno»: degradado
 - Coordenadas, identificadores o clases de torres concretas. Solo se publican conteos agregados.
 - La ubicación del tramo de la maqueta, porque es el de más torres en la clase más propensa. Se muestra sin coordenadas y sin nombres de líneas. La sonda da kilómetros desde su esquina noroeste.
 
-## Agregar los videos
+## Videos
 
-Los reproductores leen [metadatos/videos.json](metadatos/videos.json) (claves `1`, `2` y `3`). Sin `src`, cada uno muestra el aviso de video en edición. Para sustituir un montaje por una nueva versión:
+La trilogía va en este orden de publicación. Las claves son las de [metadatos/videos.json](metadatos/videos.json).
+
+| Clave | Capítulo | Duración | Copia web |
+|---|---|---|---|
+| `1` | «Ojos en la ladera» | 2:00 | `assets/video/1.mp4` |
+| `2` | «Ver venir la montaña» | 2:33 | `assets/video/2.mp4` |
+| `3` | «Cinco montañas, una red» | 2:21 | `assets/video/3.mp4` |
+
+Las copias web son de 720 × 1280. Los montajes completos en 1080 × 1920, con los fondos sin presentadora, los guiones, los textos de publicación y las tablas abiertas, van en la carpeta de Google Drive del Grupo 2 (`GRUPO_2/TRES_MIRADAS_MONTANA_DRIVE`).
+
+Los reproductores leen `metadatos/videos.json`. Sin `src`, cada uno muestra el aviso de video en edición. Para sustituir un montaje por una nueva versión:
 
 ```
 python scripts/preparar_video.py <video final.mp4> 2 --titulo "Ver venir la montaña"
