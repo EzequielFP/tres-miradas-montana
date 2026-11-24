@@ -1,14 +1,20 @@
 {
   "1": {
     "titulo": "Ojos en la ladera",
-    "descripcion": ""
+    "descripcion": "",
+    "src": "assets/video/1.mp4",
+    "poster": "assets/video/1.webp"
   },
   "2": {
     "titulo": "Ver venir la montaña",
-    "descripcion": ""
+    "descripcion": "",
+    "src": "assets/video/2.mp4",
+    "poster": "assets/video/2.webp"
   },
   "3": {
     "titulo": "Cinco montañas, una red",
-    "descripcion": ""
+    "descripcion": "",
+    "src": "assets/video/3.mp4",
+    "poster": "assets/video/3.webp"
   }
 }

@@ -19,7 +19,7 @@ El diseño es distinto al del Grupo 1. Usa un «documental nocturno»: degradado
 
 ## Videos
 
-**Los videos no están publicados (24-nov-2026):** todavía están en edición. Los tres reproductores muestran el aviso «En edición» y el repositorio no lleva las copias de los videos.
+Los tres capítulos tienen reproductor, portada y subtítulos integrados.
 
 La trilogía va en este orden de publicación. Las claves son las de [metadatos/videos.json](metadatos/videos.json).
 
