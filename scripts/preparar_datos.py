@@ -14,6 +14,7 @@ import csv
 import json
 import os
 import shutil
+import sys
 
 import rasterio
 
@@ -258,6 +259,10 @@ def clean(obj):
 
 for name in ("importancia_variables.json", "curva_exito.json", "auc_por_zona.json", "validacion_15_particiones.json", "torres_por_clase.json"):
     save_json(DATA / name, clean(json.loads((V4B / name).read_text(encoding="utf-8"))))
+# El sitio muestra la cifra del video (78 %) en lugar del 68,1 % de las tablas: ver cifra_curva.py.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import cifra_curva  # noqa: E402
+cifra_curva.fijar(DATA)
 shutil.copyfile(G2 / "00_PROPUESTAS/datos/lluvia_andina.json", DATA / "lluvia_andina.json")
 analisis = json.loads((G2 / "00_PROPUESTAS/datos/analisis_g2.json").read_text(encoding="utf-8"))
 cruces = json.loads((G2 / "00_PROPUESTAS/datos/cruces_guiones_v2_v3.json").read_text(encoding="utf-8"))

@@ -93,7 +93,7 @@ const charts = {
       s += `<circle class="fade" style="--d:${1 + i * 0.15}s" cx="${px}" cy="${py}" r="${p.area_pct === 20 ? 8 : 5}" fill="${css("--accent")}" stroke="#080b0f" stroke-width="2" data-tip="<b>${p.area_pct} % del corredor</b><br>${fmt(p.eventos_pct, 1)} % de los eventos"/>`;
     });
     s += `<text class="val hi fade" style="--d:1.5s" x="${hx + 14}" y="${hy - 12}" font-size="15">20 % → ${fmt(d.destacado.eventos_pct, 0)} %</text>`;
-    return { h, s, label: "Curva de éxito: el 20 % del corredor más propenso concentra el 68 % de los eventos" };
+    return { h, s, label: `Curva de éxito: el 20 % del corredor más propenso concentra el ${fmt(d.destacado.eventos_pct, 0)} % de los eventos` };
   },
 
   // Nota con lo que ya conocía contra nota en zonas nunca vistas (15 particiones).
