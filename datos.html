@@ -43,23 +43,56 @@
     <section class="section tight" id="descargas" aria-labelledby="descargas-titulo">
       <div class="wrap">
         <div class="section-head">
-          <p class="kicker"><b>Descargas</b> Excel y CSV</p>
-          <h2 class="display small" id="descargas-titulo" data-split>Tablas del modelo.</h2>
-          <p>Resúmenes agregados del paquete del modelo, en un libro de Excel o en CSV que se abren directamente en Excel. No incluyen coordenadas ni identificadores de torres. El <a href="archivos/LEEME.md">LEEME</a> explica cada archivo y sus columnas.</p>
+          <h2 class="display small" id="descargas-titulo" data-split>Datos de los tres videos</h2>
+          <p>Descarga los datos por capítulo. Las fichas identifican las fuentes oficiales y los productos elaborados por el proyecto.</p>
         </div>
         <div class="files">
-          <a class="file" href="https://drive.google.com/drive/folders/1KMwmFfV4n6EBUSYLhIojTkZtrwO85CG-"><span class="ext">Drive</span><strong>Paquete de datos abiertos</strong><span>Inventario nacional, variables, cinco pisos y modelos.</span></a>
           <a class="file" href="archivos/TABLAS_DEL_MODELO.xlsx" download><span class="ext">XLSX</span><strong>Todas las tablas</strong><span>Variables, validación, los seis modelos, el heurístico, las zonas y el inventario nacional, en un libro de Excel.</span></a>
-          <a class="file" href="archivos/resumen_inventarios.csv" download><span class="ext">CSV</span><strong>Inventarios</strong><span>Eventos por inventario, área y tipo de movimiento.</span></a>
+          <a class="file" href="https://drive.google.com/drive/folders/1KMwmFfV4n6EBUSYLhIojTkZtrwO85CG-"><span class="ext">Drive</span><strong>DEM, variables y mapas completos</strong><span>En 02_VARIABLES están elevacion.tif (DEM del corredor), relieve, precipitación, suelos, geología y cobertura. El paquete incluye los mapas y la validación de los modelos.</span></a>
+          <a class="file" href="archivos/LEEME.md" download><span class="ext">MD</span><strong>Guía de las tablas</strong><span>Describe los cálculos del proyecto, las columnas y las unidades.</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tight" id="datos-ojos" aria-labelledby="datos-ojos-titulo">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="display small" id="datos-ojos-titulo" data-split>01 · Ojos en la ladera</h2>
+        </div>
+        <div class="files">
+          <a class="file" href="https://repositorio.gestiondelriesgo.gov.co/bitstream/handle/20.500.11762/36815/Riesgo%20por%20movimiento%20en%20masa.pdf?isAllowed=y&amp;sequence=7"><span class="ext">PDF</span><strong>Riesgo por movimientos en masa</strong><span>Documento de la UNGRD sobre el riesgo en Colombia.</span></a>
+          <a class="file" href="https://www.superservicios.gov.co/sites/default/files/inline-files/Informe-de-Diagnostico-de-Transmision-2021.pdf"><span class="ext">PDF</span><strong>Diagnóstico de transmisión 2021</strong><span>Informe de Superservicios citado para el caso de Arauca.</span></a>
+          <a class="file" href="archivos/lluvia_andina.csv" download><span class="ext">CSV</span><strong>Lluvia acumulada andina</strong><span>% de píxeles sobre 200 mm/30 d y 600 mm/90 d, ene-2024 a sep-2026.</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tight" id="datos-montana" aria-labelledby="datos-montana-titulo">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="display small" id="datos-montana-titulo" data-split>02 · Ver venir la montaña</h2>
+        </div>
+        <div class="files">
+          <a class="file" href="archivos/inventario_nacional_corredor.gpkg" download><span class="ext">GPKG</span><strong>Inventario nacional en el corredor</strong><span>Selección geográfica de eventos de los inventarios públicos.</span></a>
+          <a class="file" href="archivos/LightGBM_clase3.tif" download><span class="ext">TIF</span><strong>Mapa de susceptibilidad</strong><span>Mapa del proyecto en tres clases, baja, media y alta.</span></a>
           <a class="file" href="archivos/tabla_variables.csv" download><span class="ext">CSV</span><strong>Variables candidatas</strong><span>AUC individual, valor de información, importancia y VIF de las 25 candidatas.</span></a>
           <a class="file" href="archivos/resumen_modelos.csv" download><span class="ext">CSV</span><strong>Seis modelos</strong><span>Con y sin suelos, validación de 15 particiones.</span></a>
-          <a class="file" href="archivos/resumen_sensibilidad.csv" download><span class="ext">CSV</span><strong>Sensibilidad</strong><span>Tamaño de bloque y otras pruebas del modelo.</span></a>
+          <a class="file" href="archivos/importancia_variables.csv" download><span class="ext">CSV</span><strong>Importancia de variables</strong><span>Mediana y P5–P95 por permutación.</span></a>
+          <a class="file" href="https://www2.sgc.gov.co/MGC/Paginas/agc_500K2020.aspx"><span class="ext">SGC</span><strong>Atlas Geológico de Colombia</strong><span>Cartografía oficial del Servicio Geológico Colombiano.</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tight" id="datos-pisos" aria-labelledby="datos-pisos-titulo">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 class="display small" id="datos-pisos-titulo" data-split>03 · Cinco montañas, una red</h2>
+        </div>
+        <div class="files">
+          <a class="file" href="archivos/zonas_P4_corredor_250m.tif" download><span class="ext">TIF</span><strong>Mapa de los cinco pisos</strong><span>Zonas térmicas y de humedad del corredor, en una cuadrícula de 250 m.</span></a>
+          <a class="file" href="archivos/zonas_P4.csv" download><span class="ext">CSV</span><strong>Cinco pisos</strong><span>Área, densidad de eventos, torres por clase, AUC y variable que más pesa en cada piso.</span></a>
           <a class="file" href="archivos/auc_por_zona.csv" download><span class="ext">CSV</span><strong>AUC por piso</strong><span>Modelo único frente a modelos entrenados en cada zona.</span></a>
           <a class="file" href="archivos/importancia_por_zona_P4.csv" download><span class="ext">CSV</span><strong>Importancia por piso</strong><span>Peso de cada variable en las cinco zonas térmicas y de humedad.</span></a>
-          <a class="file" href="archivos/codigos_clases.csv" download><span class="ext">CSV</span><strong>Códigos de clases</strong><span>Significado de las capas categóricas y de las clases del modelo.</span></a>
-          <a class="file" href="archivos/lluvia_andina.csv" download><span class="ext">CSV</span><strong>Lluvia acumulada andina</strong><span>% de píxeles sobre 200 mm/30 d y 600 mm/90 d, ene-2024 a sep-2026.</span></a>
-          <a class="file" href="archivos/zonas_P4.csv" download><span class="ext">CSV</span><strong>Cinco pisos</strong><span>Área, densidad de eventos, torres por clase, AUC y variable que más pesa en cada piso.</span></a>
-          <a class="file" href="archivos/importancia_variables.csv" download><span class="ext">CSV</span><strong>Importancia de variables</strong><span>Mediana y P5–P95 por permutación.</span></a>
           <a class="file" href="archivos/torres_por_clase.csv" download><span class="ext">CSV</span><strong>Torres por clase</strong><span>Conteos agregados por clase de susceptibilidad.</span></a>
         </div>
       </div>
